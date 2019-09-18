@@ -15,38 +15,28 @@ const TableHeader = () => {
     )
 }
 
-const TableBody = props => {
-
-    return (
-        <tbody>
-            <tr>
-                <td>Charlie</td>
-                <td>Janitor</td>
+const TableBody = props => {//with props, it's one way data flow
+    const rows = props.characterData.map((row,index) => {
+        return (
+            <tr key={index}>
+                <td>{row.name}</td>
+                <td>{row.job}</td>
+                
             </tr>
-            <tr>
-                <td>Mac</td>
-                <td>Bouncer</td>
-            </tr>
-            <tr>
-                <td>Dee</td>
-                <td>Aspiring actress</td>
-            </tr>
-            <tr>
-                <td>Dennis</td>
-                <td>Bartender</td>
-            </tr>
-        </tbody> 
-    )
+        )
+    })
+    return <tbody>{rows}</tbody>
 }
 
 
 class Table extends Component {
     render(){
+        const {characterData} = this.props //Since we're passing it down to TableBody from Table, we have to pass it as a props
 
         return(
             <table>
                 <TableHeader /> 
-                <TableBody />
+                <TableBody characterData={characterData}/>
             </table>
         )
     }
