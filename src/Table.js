@@ -34,13 +34,16 @@ const TableBody = props => {//with props, it's one way data flow
 
 class Table extends Component {
     render(){
-        const {characterData, removeCharacter} = this.props //Since we're passing it down to TableBody from Table, we have to pass it as a props
+        const {characterData, removeCharacter} = this.props; //Since we're passing it down to TableBody from Table, we have to pass it as a props
 
         return(
-            <table>
-                <TableHeader /> 
-                <TableBody characterData={characterData} removeCharacter={removeCharacter}/>
-            </table>
+            <div>
+                <Title />
+                <table>
+                    <TableHeader /> 
+                    <TableBody characterData={characterData} removeCharacter={removeCharacter}/>
+                </table>
+            </div>
         )
     }
 }
