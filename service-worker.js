@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MamzelNyf/react-tutorial-form/precache-manifest.454525373ba8856e78aff153b2ac9214.js"
+  "/MamzelNyf/react-tutorial-form/precache-manifest.e3f691ec8b433526c0bad6f8c7df8b32.js"
 );
 
 self.addEventListener('message', (event) => {

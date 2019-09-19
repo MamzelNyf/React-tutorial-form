@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e618c05c862d1faad8c6e5f0b3c9176c",
+    "revision": "b8a2462060217dc0c62332e6693ba3b6",
     "url": "/MamzelNyf/react-tutorial-form/index.html"
   },
   {
-    "revision": "e4544b304be9e5bf608d",
+    "revision": "32ffcedbc92004bb5c2a",
     "url": "/MamzelNyf/react-tutorial-form/static/css/main.d8f58129.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MamzelNyf/react-tutorial-form/static/js/2.ebb8b90c.chunk.js"
   },
   {
-    "revision": "e4544b304be9e5bf608d",
-    "url": "/MamzelNyf/react-tutorial-form/static/js/main.13009854.chunk.js"
+    "revision": "32ffcedbc92004bb5c2a",
+    "url": "/MamzelNyf/react-tutorial-form/static/js/main.33d45b97.chunk.js"
   },
   {
     "revision": "a00a0cae92826dc09fa5",
