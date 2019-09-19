@@ -2,7 +2,7 @@
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/MamzelNyf/react-tutorial-form",
+  "homepage": "https://mamzelnyf.github.io/react-tutorial-form/",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
